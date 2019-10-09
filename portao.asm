@@ -78,7 +78,7 @@ lenmenugateClosing1 equ $-menugateClosing1
 menugateOpened1 db "*  2 - Fechar o portão       *", LF, "*  0 - Sair                  *", LF, "*                            *", LF, "******************************",LF, LF
 lenmenugateOpened1 equ $-menugateOpened1
 
-resposta db "Opssssss...... Opção Inválida, digite novamente", LF, LF
+resposta db "Opção Inválida, digite novamente", LF, LF
 lenresposta equ $-resposta
 
 ; Option scenario
